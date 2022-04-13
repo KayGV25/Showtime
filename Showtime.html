@@ -29,6 +29,10 @@ function Showtime()
 	var fm = ("0" + m).slice(-2);
 	var fs = ("0" + s).slice(-2);
 	document.getElementById("time").innerHTML = fh + " : " + fm + " : " + fs;
+	if (h==0 && m==0 && s==0)
+	{
+		alert("Tôi yêu em: đến nay chừng có thể\nNgọn lửa tình chưa hẳn đã tàn phai\nNhưng không để em bận lòng thêm nữa\nHay hồn em phải gợn bóng u hoài.\n\nTôi yêu em âm thầm, không hy vọng\nLúc rụt rè, khi hậm hực lòng ghen\nTôi yêu em, yêu chân thành, đằm thắm\nCầu em được người tình như tôi đã yêu em.\n");
+	}
 }
 
 setInterval(Showtime, 1000);
