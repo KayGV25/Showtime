@@ -1,0 +1,43 @@
+.title{
+    color: red;
+    text-align: left;
+}
+.block{
+    background-color: lightcoral;
+    color: black;
+    padding: 12px 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px 16px;
+    margin: 10px 0 0 0;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+    text-decoration: none;
+}
