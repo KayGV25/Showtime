@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>Show time</title>
+<style>
+body {
+	color: black;
+	font-family: "Courier New", monospace;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size:500%;
+  color: white;
+}
+</style>
+<script>
+function Showtime()
+{
+	var d = new Date();
+	var h = d.getHours();
+	var m = d.getMinutes();
+	var s = d.getSeconds();
+	var fh = ("0" + h).slice(-2);
+	var fm = ("0" + m).slice(-2);
+	var fs = ("0" + s).slice(-2);
+	document.getElementById("time").innerHTML = fh + " : " + fm + " : " + fs;
+}
+
+setInterval(Showtime, 1000);
+</script>
+</head>
+<body style="background-color:black">
+<div>
+<p id="time" class="center"></p>
+</div>
+</body>
+</html>
