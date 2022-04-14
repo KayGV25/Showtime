@@ -1,6 +1,8 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="stylesheet.css">
+<meta charset="utf-8"></meta>
 <title>Show time</title>
 <style>
 body {
@@ -38,12 +40,27 @@ function Showtime()
 setInterval(Showtime, 1000);
 </script>
 </head>
-<body style="background-color:black">
-<div>
-<p id="time" class="center"></p>
-</div>
-<div>
-<a href="index.html"><button>Menu</button></a>
-</div>
+<body style="background-color:rgb(24, 24, 24);">
+	<header style="color:black;">
+		<ul style="font-size: 1.5em;">
+			<li><a href="index.html">Home</a></li>
+			<li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Project</a>
+			<div class="dropdown-content">
+				<a href="Showtime.html">Show time</a>
+			</div>
+			</li>
+			<li class="dropdown"><a href="javascript:void(0)" class="dropbtn">Link</a>
+			<div class="dropdown-content">
+				<a href="https://www.facebook.com/profile.php?id=100011628282481" target="_blank">VDK</a>
+				<a href="https://www.facebook.com/profile.php?id=100015950437740" target="_blank">NHT</a>
+			</div>
+			</li>
+		</ul>
+	</header>
+<section>
+	<div>
+	<p id="time" class="center"></p>
+	</div>
+</section>
 </body>
 </html>
