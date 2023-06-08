@@ -78,6 +78,6 @@ html, body{
     margin: auto;   
 }
 .textblock{
-    background-color:rgba(195,213,146,0.2);
+    background-color:rgb(195 213 146/0.2);
     padding: 50px;
 }
