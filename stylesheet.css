@@ -14,10 +14,12 @@
 ul{
     list-style-type: none;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     overflow: hidden;
     background-color: #38444d;
     font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -10px;
 }
 li{
     float: left;
@@ -28,7 +30,7 @@ li a, .dropbtn{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-bottom: 20px;
+    border-radius: 20px;
 }
 li a.active{
     background-color: rgb(167, 145, 145);
