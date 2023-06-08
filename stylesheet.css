@@ -77,6 +77,6 @@ html, body{
     margin: auto;   
 }
 .textblock{
-    background-color:rgb(195 213 146 / 20%);
+    background-color:rgba(195,213,146,0.2);
     padding: 50px;
 }
