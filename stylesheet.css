@@ -28,7 +28,7 @@ li a, .dropbtn{
     color:white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    border-radius: 10px;
 }
 li a.active{
     background-color: rgb(167, 145, 145);
