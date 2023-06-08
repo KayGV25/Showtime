@@ -33,6 +33,7 @@ li a, .dropbtn{
 }
 li a.active{
     background-color: rgb(167, 145, 145);
+    border-radius: 20px;
 }
 li a:hover:not(.active){background-color: #555}
 li a:hover, .dropdown:hover .dropbtn{
