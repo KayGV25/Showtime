@@ -89,3 +89,10 @@ html, body{
     margin-left: auto;
     margin-right: auto;
 }
+.Rbox{
+    background-color: #e6e6e6;
+    color: #131414;
+    border-radius: 50px;
+    width: fit-content;
+    height: fit-content;
+}
