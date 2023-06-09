@@ -70,6 +70,8 @@ p{
 html, body{
     margin:0;
     height: 100%;
+    background-repeat: repeat-y;
+    background-image: url(https://img.freepik.com/free-vector/dark-polygonal-background_1409-878.jpg?w=1380&t=st=1686294911~exp=1686295511~hmac=83c8718cba9eb303a8b5515af54103a35180d5c61dd30cedd0fdd33157a1d4b5)
 }
 .quote{
     padding: 0 10%;
@@ -77,7 +79,7 @@ html, body{
     margin: auto;   
 }
 .textblock{
-    background-color:rgb(195 213 146/0.2);
+    background-color:rgb(71 76 59);
     padding: 50px;
 }
 .round{
@@ -105,5 +107,4 @@ p.quote{
     text-align: center;
     font-size: 2.5em;
     margin-top: 0;
-    padding-bottom: 10px;
 }
