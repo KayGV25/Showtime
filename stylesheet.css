@@ -112,3 +112,22 @@ p.quote{
     font-size: 2.5em;
     margin-top: 0;
 }
+.footer{
+    background-color: #38444d;
+    text-align:left;
+    font-size: small;
+    padding: 1%;
+    color: rgb(211, 218, 231);
+}
+a.footer:link{
+    color: rgb(211, 218, 231);
+    text-decoration: none;
+}
+a.footer:visited{
+    color: rgb(211, 218, 231);
+    text-decoration: none;
+}
+a.footer:hover{
+    color: rgb(211, 218, 231);
+    text-decoration: underline;
+}
