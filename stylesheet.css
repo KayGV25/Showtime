@@ -82,6 +82,9 @@ html, body{
     padding: 50px;
 }
 .round{
-    border-radius: 50%;
+    border-radius: 50px;
     display: inline-block;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
 }
