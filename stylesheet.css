@@ -81,3 +81,7 @@ html, body{
     background-color:rgb(195 213 146/0.2);
     padding: 50px;
 }
+.round{
+    border-radius: 50%;
+    display: inline-block;
+}
