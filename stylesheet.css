@@ -126,6 +126,9 @@ p.quote{
 a{
     color: rgb(211, 218, 231);
     text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 a.f:link{
     color: rgb(211, 218, 231);
